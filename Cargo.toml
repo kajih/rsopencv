@@ -1,0 +1,12 @@
+[package]
+name = "rsopencv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+opencv = {version = "0.89.0", default-features = false, features = ["highgui", "imgcodecs"]}
+winapi = { version =  "0.3.9" , features = ["winuser"]}
+
+
+[build-dependencies]
+vcpkg = "0.2.15"
