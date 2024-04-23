@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-opencv = {version = "0.89.0", default-features = false, features = ["highgui", "imgcodecs"]}
+opencv = { version = "0.91.1", default-features = false, features = ["highgui", "imgcodecs", "videoio"] }
 winapi = { version =  "0.3.9" , features = ["winuser"]}
 
 
